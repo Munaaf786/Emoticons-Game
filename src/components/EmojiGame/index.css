@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-container {
+  width: 100%;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-cards-list {
+  list-style-type: none;
+  padding-left: 0;
+  width: 92%;
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 767px) {
+  .emoji-cards-list {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .emoji-cards-list {
+    width: 64%;
+  }
+}

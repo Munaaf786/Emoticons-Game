@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #ffffff33;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.game-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.game-name {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 0 64px;
+  }
+}
